@@ -15,20 +15,6 @@ This project is a machine learning model for classifying emails as spam or ham (
 
 ---
 
-## Project Structure
-
-```
-project/
-├── model.py                              # Trains the model and saves it
-├── classify.py                           # Loads model/tokenizer and classifies new emails
-├── spam_ham_dataset.csv                  # Dataset used for training
-├── spam_classifier_model.h5              # Best performing model checkpoint
-├── tokenizer.pkl                         # Tokenizer saved for reuse
-├── emails/                               # Folder of .txt emails to be classified
-```
-
----
-
 ## Installation
 
 ```bash
